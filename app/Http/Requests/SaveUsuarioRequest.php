@@ -24,15 +24,17 @@ class SaveUsuarioRequest extends FormRequest
     public function rules()
     {
         return [
-        'nombre'=> "required",
-        'apellido'=> "required",
-        'direccion'=> "required",
-        'telefono'=> "required",
-        'facebook'=> "required",
-        'membersia_id'=> "required",
-        'edad'=> "required",
-        'peso'=> "required",
-        'estatura'=> "required"
+            'nombre'=> "required",
+            'apellido'=> "required",
+            'direccion'=> "required",
+            'correo'=>"required",
+            'password'=>"required",
+            'telefono'=> "required",
+            'facebook'=> "required",
+            'membersia_id'=> "required",
+            'edad'=> "required",
+            'peso'=> "required",
+            'estatura'=> "required"
         ];
     }
 }

@@ -27,6 +27,8 @@ class UpdateUsuarioRequest extends FormRequest
             'nombre'=> "required",
             'apellido'=> "required",
             'direccion'=> "required",
+            'correo'=>"required",
+            'password'=>"required",
             'telefono'=> "required",
             'facebook'=> "required",
             'membersia_id'=> "required",

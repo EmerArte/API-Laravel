@@ -28,11 +28,11 @@ Route::delete('usuarios/{usuario}',[UsuarioController::class,'destroy']);
 
 
 
-Route::get('menbersias',[MembersiaController::class,'index']);
-Route::post('menbersias',[MembersiaController::class,'store']);
-Route::get('menbersias/{membersia}',[MembersiaController::class,'show']);
-Route::put('menbersias/{membersia}',[MembersiaController::class,'update']);
-Route::delete('menbersias/{membersia}',[MembersiaController::class,'destroy']);
+Route::get('membersias',[MembersiaController::class,'index']);
+Route::post('membersias',[MembersiaController::class,'store']);
+Route::get('membersias/{membersia}',[MembersiaController::class,'show']);
+Route::put('membersias/{membersia}',[MembersiaController::class,'update']);
+Route::delete('membersias/{membersia}',[MembersiaController::class,'destroy']);
 
 
 

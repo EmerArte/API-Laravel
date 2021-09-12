@@ -12,6 +12,8 @@ class Usuario extends Model
         'nombre',
         'apellido',
         'direccion',
+        'correo',
+        'password',
         'telefono',
         'facebook',
         'membersia_id',

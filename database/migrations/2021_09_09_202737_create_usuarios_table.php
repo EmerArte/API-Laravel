@@ -18,6 +18,8 @@ class CreateUsuariosTable extends Migration
             $table->string('nombre');
             $table->string('apellido');
             $table->string('direccion');
+            $table->string('correo');
+            $table->string('password');
             $table->biginteger('telefono');
             $table->string('facebook');
             $table->integer('membersia_id');
