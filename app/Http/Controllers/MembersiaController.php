@@ -27,7 +27,7 @@ class MembersiaController extends Controller
      */
     public function store(SaveMembersiaRequest $request)
     {
-        Entrenador::create($request->all());
+        Membersia::create($request->all());
         return response()->json([
             "res"=> true,
             "msg"=> "Membersia Guardada Correctamente"
